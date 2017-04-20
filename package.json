@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "moment": "^2.15.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "hubstack_backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "keywords": [],
+  "author": "Howard Jiang <me@howardjiang.com> (http://howardjiang.com)",
+  "license": "ISC",
+  "description": ""
+}
