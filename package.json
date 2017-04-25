@@ -5,7 +5,8 @@
     "moment": "^2.15.2"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "./node_modules/.bin/eslint .; exit 0"
   },
   "name": "hubstack_backend",
   "version": "1.0.0",
@@ -13,5 +14,9 @@
   "keywords": [],
   "author": "Howard Jiang <me@howardjiang.com> (http://howardjiang.com)",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-google": "^0.7.1"
+  }
 }

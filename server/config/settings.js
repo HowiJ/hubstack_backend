@@ -1,1 +1,1 @@
-module.exports = { port: 8000, db: "asdf" };
+module.exports = {port: 8000};
